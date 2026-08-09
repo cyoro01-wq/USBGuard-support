@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="ja">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="USBGuardのサポートページです。">
+  <title>USBGuard サポート</title>
+  <style>
+    :root { color-scheme: light; --ink: #102a37; --accent: #146b6a; --paper: #f6f3ea; --line: #d7e1dc; }
+    * { box-sizing: border-box; }
+    body { margin: 0; color: var(--ink); background: radial-gradient(circle at 10% 0%, #d9efdf 0, transparent 34rem), var(--paper); font-family: "Hiragino Sans", "Yu Gothic", sans-serif; line-height: 1.75; }
+    main { width: min(760px, calc(100% - 40px)); margin: 0 auto; padding: 72px 0; }
+    header { padding: 18px 0 36px; border-bottom: 1px solid var(--line); }
+    .mark { display: inline-block; padding: 5px 11px; color: white; background: var(--accent); border-radius: 999px; font-size: .8rem; letter-spacing: .08em; }
+    h1 { margin: 16px 0 6px; font-size: clamp(2.3rem, 8vw, 4.5rem); line-height: 1; letter-spacing: -.06em; }
+    h2 { margin: 46px 0 12px; font-size: 1.35rem; }
+    p, li { font-size: 1rem; }
+    a { color: #075d72; font-weight: 700; }
+    .card { margin-top: 24px; padding: 22px 24px; background: rgba(255,255,255,.72); border: 1px solid var(--line); border-radius: 16px; }
+    footer { margin-top: 58px; color: #52636a; font-size: .9rem; }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <span class="mark">USB SECURITY</span>
+      <h1>USBGuard</h1>
+      <p>USBメモリや外付けドライブを確認するためのmacOSアプリです。</p>
+    </header>
+
+    <section>
+      <h2>はじめに</h2>
+      <p>USBGuardを起動し、検査したいUSBメモリまたは外付けドライブを接続してスキャンを実行してください。検査結果では、注意が必要なファイルや既知の脅威ハッシュとの照合結果を確認できます。</p>
+    </section>
+
+    <section>
+      <h2>アクセス許可について</h2>
+      <p>macOSのプライバシー保護により、外付けメディアの内容を確認するにはアクセス許可が必要な場合があります。システム設定の「プライバシーとセキュリティ」から、USBGuardに必要なアクセスを許可してください。</p>
+    </section>
+
+    <section>
+      <h2>VirusTotal連携</h2>
+      <p>任意でVirusTotal APIキーを設定すると、ファイルのハッシュ値を照合できます。ファイル本体はVirusTotalへ送信しません。</p>
+    </section>
+
+    <section class="card">
+      <h2>お問い合わせ・不具合報告</h2>
+      <p>不具合、改善要望、サポートについては、<a href="https://github.com/cyoro01-wq/USBGuard-support/issues">GitHub Issues</a>からお知らせください。</p>
+    </section>
+
+    <footer>© 2026 YOSHIYUKI UEMATSU</footer>
+  </main>
+</body>
+</html>
